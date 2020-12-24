@@ -26,14 +26,21 @@
     "access": "public"
   },
   "dependencies": {
+    "@superset-ui/chart-controls": "^0.15.2",
     "@superset-ui/core": "^0.15.2",
-    "@superset-ui/chart-controls": "^0.15.2"
+    "deck.gl": "^8.3.11",
+    "react-map-gl": "^6.0.2",
+    "json-loader": "^0.5.7"
   },
   "peerDependencies": {
     "react": "^16.13.1"
   },
   "devDependencies": {
+    "@danmarshall/deckgl-typings": "^4.4.0",
     "@types/jest": "^26.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-map-gl": "^5.2.9",
     "jest": "^26.0.1"
   }
 }
